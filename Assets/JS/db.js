@@ -4,13 +4,12 @@ const mysql = require("mysql");
 // Module export
 const db = module.exports;
 
-// Database and connection
-// (be sure to insert your password)
+// Database and connection (Password Required)
 const connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "!Babu601",
+    password: "",
     database: "employeeTracker_db",
 });
 connection.connect(function (err) {
