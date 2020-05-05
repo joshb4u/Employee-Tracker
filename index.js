@@ -1,1 +1,1 @@
-// To be done
+// Creating local dependencies separately in JS folder inside Assets
