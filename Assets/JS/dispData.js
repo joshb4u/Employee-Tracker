@@ -13,9 +13,7 @@ dispData.table = async function (res, type) {
         delete item.id;
         data.push(Object.values(item));
     });
-    console.log(type);
     type = type.substring(0, 3);
-    console.log(type);
     switch (type) {
         case "dep":
         head = ["Department Name"];

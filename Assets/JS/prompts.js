@@ -149,7 +149,7 @@ const add = {
         {
             type: "list",
             name: "empRole",
-            message: "Which role is this employee in?",
+            message: "What is the employee's role?",
             choices: async function (answers) {
                 return roleList();
             },
@@ -157,7 +157,7 @@ const add = {
         {
             type: "list",
             name: "empMgr",
-            message: "Who is the manager for this employee?",
+            message: "Who is the employee's manager?",
             choices: async function (answers) {
                 return employeeList();
             },
@@ -330,7 +330,7 @@ const remove = {
         {
             type: "list",
             name: "emp",
-            message: "Which employee would you like to remove?",
+            message: "Which employee do you want to remove?",
             choices: async function (answers) {
                 return employeeList();
             },
