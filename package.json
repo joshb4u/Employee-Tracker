@@ -19,7 +19,7 @@
   "homepage": "https://github.com/joshb4u/Hw12#readme",
   "dependencies": {
     "cli-table": "^0.3.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "inquirer": "^7.1.0",
     "mysql": "^2.18.1"
   }
